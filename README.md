@@ -1,7 +1,7 @@
 Idle Timer for ExtJs 4
 =============================
 
-Inspired by [Idle Timer][1] for YUI by Nicolas Zakas.
+Inspired by [Idle Timer](http://yuilibrary.com/gallery/show/idletimer) for YUI by Nicolas Zakas.
 
 ## Installation
 Copy source files to your project, use `Ext.require()` to use it in your application.
