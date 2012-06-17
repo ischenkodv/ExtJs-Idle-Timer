@@ -1,3 +1,6 @@
+/**
+ * Class that checks if user is idle.
+ */
 Ext.define('Utils.IdleTimer', {
     alias: 'utils.idle_timer',
     mixins: {
@@ -24,6 +27,8 @@ Ext.define('Utils.IdleTimer', {
             'idle',
             'active'
         );
+
+        me.mixins.observable.constructor.call(me);
 
         if (config.listeners) {
             me.on(config.listeners);
